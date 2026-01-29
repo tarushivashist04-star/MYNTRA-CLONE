@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile | Myntra Clone</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../myntraCSS/index.css">
+  <link rel="stylesheet" href="../myntraCSS/profile.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+</head>
+
+<body>
+
+  <!--  HEADER  -->
+  <header>
+    <div class="logo_container">
+      <a href="index.html">
+        <img class="myntra_home" src="../image/myntra_logo.webp" alt="Myntra Home">
+      </a>
+    </div>
+
+    <nav class="nav_bar">
+      <a href="index.html?category=Men">Men</a>
+      <a href="index.html?category=Women">Women</a>
+      <a href="index.html?category=Kid">Kids</a>
+      <a href="index.html?category=Home">Home & Living</a>
+      <a href="index.html?category=Beauty">Beauty</a>
+      <a href="index.html">All</a>
+    </nav>
+
+    <div class="action_bar">
+      <a class="action_container" href="profile.html">
+        <span class="material-symbols-outlined action_icon">person</span>
+        <span class="action_name">Profile</span>
+      </a>
+
+      <a class="action_container" href="bag.html">
+        <span class="material-symbols-outlined action_icon">shopping_bag</span>
+        <span class="action_name">Bag</span>
+        <span class="bag-item-count">0</span>
+      </a>
+    </div>
+  </header>
+
+  <!--  MAIN  -->
+  <main class="profile-container">
+
+    <div class="profile-card">
+      <span class="material-symbols-outlined profile-icon">
+        account_circle
+      </span>
+
+      <h2 id="userName">Guest User</h2>
+      <p id="userEmail">guest@myntra.com</p>
+
+      <button class="profile-btn" onclick="logoutUser()">
+        Logout
+      </button>
+    </div>
+
+  </main>
+
+  <!--FOOTER  -->
+  <footer>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="index.html">Men</a>
+                <a href="index.html">Women</a>
+                <a href="index.html">Kids</a>
+                <a href="index.html">Home & Living</a>
+                <a href="index.html">Beauty</a>
+                <a href="index.html">Gift Card</a>
+                <a href="index.html">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="index.html">Men</a>
+                <a href="index.html">Women</a>
+                <a href="index.html">Kids</a>
+                <a href="index.html">Home & Living</a>
+                <a href="index.html">Beauty</a>
+                <a href="index.html">Gift Card</a>
+                <a href="index.html">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="index.html">Men</a>
+                <a href="index.html">Women</a>
+                <a href="index.html">Kids</a>
+                <a href="index.html">Home & Living</a>
+                <a href="index.html">Beauty</a>
+                <a href="index.html">Gift Card</a>
+                <a href="index.html">Myntra Insider</a>
+            </div>
+        </div>
+        <hr>
+
+    <div class="copyright">
+      © 2026 www.myntra.com. All rights reserved.
+    </div>
+  </footer>
+
+  <!--  JS  -->
+  <script>
+    function logoutUser() {
+      alert("Logged out successfully!");
+      window.location.href = "index.html";
+    }
+  </script>
+  <!--for making bag initial 0 not shown-->
+  <script src="../myntraJS/index.js" defer></script>
+  
+
+</body>
+</html>
