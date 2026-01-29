@@ -1,5 +1,5 @@
 # MYNTRA-CLONE
-A responsive Myntra clone developed using HTML, CSS, and JavaScript. The project includes dynamic product listing, add-to-bag functionality, price calculation, localStorage integration, and an order success page with a complete user flow
+A responsive Myntra clone developed using HTML, CSS, and JavaScript. The project includes dynamic product listing, add-to-bag functionality, price calculation, localStorage integration, and an order success page with a complete user flow.
 <img width="1910" height="1074" alt="Screenshot 2026-01-29 202442" src="https://github.com/user-attachments/assets/8579c63d-1bb8-42f4-8624-dd5532d587c4" />
 <img width="1902" height="1035" alt="Screenshot 2026-01-29 202459" src="https://github.com/user-attachments/assets/e72127eb-de89-4afb-8a20-968af5add6c0" />
 <img width="1903" height="1015" alt="Screenshot 2026-01-29 202513" src="https://github.com/user-attachments/assets/e239bd6b-fdce-4189-8513-8f485e33d8cc" />
